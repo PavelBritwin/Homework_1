@@ -1,4 +1,4 @@
-﻿// Task 4. Compare 2 numbers
+﻿// Task 4. Max number
 Console.Write("Введите первое число: \n");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: \n");
