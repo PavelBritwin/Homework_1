@@ -1,17 +1,11 @@
-﻿// Task 4. Max number
-Console.Write("Введите первое число: \n");
+﻿// Task 8. All even numbers
+Console.Write("Введите число: \n");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите второе число: \n");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите третье число: \n");
-int c = Convert.ToInt32(Console.ReadLine());
-if (a > b)
+int i = 1;
+while (i <= a)
 {
-    if (a > c)    {        Console.Write($"Максимальное число: {a}");    }
-    else    {        Console.Write($"Максимальное число: {c}");    }
-}
-else
-{
-    if (b > c)    {        Console.Write($"Максимальное число: {b}");    }
-    else    {        Console.Write($"Максимальное число: {c}");    }
+    if (i % 2 == 0)
+        Console.Write(i);
+        Console.Write(" ");
+    i++;
 }
